@@ -1,0 +1,18 @@
+.button{
+    appearance: none;
+  background: none;
+  border: none;
+  color: var(--sub);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  font-size: 0.6rem;
+  font-family: inherit;
+
+  &[aria-current='page'] {
+    color: var(--primary);
+  }
+}

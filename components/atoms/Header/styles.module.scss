@@ -1,0 +1,18 @@
+
+
+.header {
+    align-items: center;
+    display: flex;
+    height: 48px;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+    padding: 0 16px;
+    color: var(--sub);
+  
+    & > :first-child {
+      flex: 1 0 auto;
+    }
+    & > :nth-child(2) {
+      margin-right: 8px;
+    }
+  }
